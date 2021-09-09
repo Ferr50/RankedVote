@@ -9,7 +9,7 @@ function NamesList(props) {
           id={props.list + 'flexRadioDefault1'}
         />
         <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault1'}>
-          FORTRAN
+          <i>nome #1</i>
         </label>
       </div>
       <div className='form-check'>
@@ -20,7 +20,7 @@ function NamesList(props) {
           id={props.list + 'flexRadioDefault2'}
         />
         <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault2'}>
-          14BIS
+          <i>nome #2</i>
         </label>
       </div>
       <div className='form-check'>
@@ -31,7 +31,7 @@ function NamesList(props) {
           id={props.list + 'flexRadioDefault3'}
         />
         <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault3'}>
-          EDVAC
+          <i>nome #3</i>
         </label>
       </div>
       <div className='form-check'>
@@ -42,7 +42,7 @@ function NamesList(props) {
           id={props.list + 'flexRadioDefault4'}
         />
         <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault4'}>
-          UNIVAC
+          <i>nome #4</i>
         </label>
       </div>
       <div className='form-check'>
@@ -53,7 +53,7 @@ function NamesList(props) {
           id={props.list + 'flexRadioDefault5'}
         />
         <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault5'}>
-          ADA
+          <i>nome #5</i>
         </label>
       </div>
       <div className='form-check'>
@@ -64,7 +64,40 @@ function NamesList(props) {
           id={props.list + 'flexRadioDefault6'}
         />
         <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault6'}>
-          LOVELACE
+          <i>nome #6</i>
+        </label>
+      </div>
+      <div className='form-check'>
+        <input
+          className='form-check-input'
+          type='radio'
+          name={props.list + 'flexRadioDefault'}
+          id={props.list + 'flexRadioDefault6'}
+        />
+        <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault6'}>
+          <i>nome #7</i>
+        </label>
+      </div>
+      <div className='form-check'>
+        <input
+          className='form-check-input'
+          type='radio'
+          name={props.list + 'flexRadioDefault'}
+          id={props.list + 'flexRadioDefault6'}
+        />
+        <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault6'}>
+          <i>nome #8</i>
+        </label>
+      </div>
+      <div className='form-check'>
+        <input
+          className='form-check-input'
+          type='radio'
+          name={props.list + 'flexRadioDefault'}
+          id={props.list + 'flexRadioDefault6'}
+        />
+        <label className='form-check-label' htmlFor={props.list + 'flexRadioDefault6'}>
+          <i>nome #9</i>
         </label>
       </div>
     </div>

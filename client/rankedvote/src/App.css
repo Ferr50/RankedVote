@@ -3,9 +3,17 @@
   margin: auto;
 }
 
+.loading-infinity {
+  width: auto;
+  display: block;
+  margin: 20% auto;
+}
+
 .home,
 .count-votes,
-.cast-vote {
+.cast-vote,
+.admin-console,
+.campaign {
   margin: 80px auto;
   width: 65%;
   height: auto;

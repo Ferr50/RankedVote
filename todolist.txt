@@ -1,0 +1,5 @@
+#1 validação server side
+
+#2 modularização front-end
+
+#3 validar nome das campanhas em até 11 letras

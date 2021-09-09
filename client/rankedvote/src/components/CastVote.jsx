@@ -1,5 +1,5 @@
 import NamesList from './NamesList';
-const axios = require('axios').default;
+const axios = require('axios');
 
 function CastVote() {
   const cast = () => {
@@ -14,7 +14,7 @@ function CastVote() {
     if (votes[1] === votes[2] || votes[1] === votes[3] || votes[2] === votes[3]) {
       alert('SUAS 3 OPÇÕES DE VOTO DEVEM SER DISTINTAS!');
     } else {
-      const data = { code: sessionStorage.getItem('code'), vote: votes };
+      const data = { code: sessionStorage.getItem('voterCode'), vote: votes };
       axios
         .post('http://localhost:5000/votes/cast', data)
         .then((res) => {
@@ -37,7 +37,7 @@ function CastVote() {
 
   return (
     <div className='cast-vote'>
-      <h1 className='text-info'>2° TURMA EDTECH</h1>
+      <h1 className='text-info'>3° TURMA EDTECH</h1>
       <div className='row m-0'>
         <div className='first-option col-4'>
           <h4 className='text-secondary mb-3'>1° Opção</h4>

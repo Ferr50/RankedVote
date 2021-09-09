@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const isCodeValid = require('../middleware/isCodeValid');
-const limiters = require('../middleware/rateLimiters');
+const limiters = require('../middleware/limiters');
 const S3 = require('aws-sdk/clients/s3');
 let s3 = new S3({ apiVersion: '2006-03-01' });
 
